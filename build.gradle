@@ -1,5 +1,8 @@
-apply plugin: 'java'
-apply plugin: 'maven-publish'
+plugins {
+  id 'java'
+  id 'org.springframework.boot' version '3.3'10'
+  id 'maven-publish'
+}
 
 
 sourceCompatibility = '17'
